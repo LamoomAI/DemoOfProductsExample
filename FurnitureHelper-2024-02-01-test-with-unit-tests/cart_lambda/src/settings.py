@@ -1,0 +1,1 @@
+# `settings.py` to manage environment variables and configurations.

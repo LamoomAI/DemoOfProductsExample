@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bundle_lambda"
+version = "0.1.0"
+description = "Creates furniture bundles based on the selected layout and user preferences, interacts with OpenSearch to find matching furniture items, and caches results."
+authors = ["Kate Yanchenko <kate@lamoom.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+boto3 = "^1.33.11"
+opensearchpy = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+boto3 = "^1.29.6"
+botocore = "^1.32.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

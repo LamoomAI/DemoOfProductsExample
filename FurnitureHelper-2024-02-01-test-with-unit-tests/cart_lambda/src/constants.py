@@ -1,0 +1,1 @@
+CLOUDWATCH_NAMESPACE = "cart_lambda"
